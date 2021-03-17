@@ -7,7 +7,7 @@
     {applications, [kernel, stdlib, crypto]},
     {env, [
         % Default number of 'rounds', defining the hashing complexity
-        {default_log_rounds, 12},
+        {default_log_rounds, 6},
 
         % Mechanism to use 'nif' or 'port'
         {mechanism, nif},
